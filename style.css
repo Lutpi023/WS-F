@@ -1,20 +1,31 @@
-#motto1{
+#motto1 {
     display: block;
 }
 
-#motto2{
+#motto2 {
     display: none;
 }
 
-.sosmed a{
+.sosmed a {
     color: white;
 }
 
 @media screen and (max-width: 768px) {
-    #motto2{
+    #motto2 {
         display: block;
     }
-    #motto1{
+
+    #motto1 {
         display: none;
+    }
+
+    .map {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .map iframe {
+        width: 100vw;
+        height: 350px;
     }
 }
